@@ -1,0 +1,24 @@
+/* Table of content */
+
+html,body{
+    height: 100%;
+}
+.bg-alpha{
+    background: rgba(0, 0,0, 0.5)
+}
+.carousel, .carousel-inner, .carousel-item, .carousel-inner .active{
+    height: 100%;
+}
+.carousel-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption{
+    top: 40%;
+}
+/* .back-screen{
+    background: rgba(0, 0,0, 0.5);
+    height: 100%;
+} */
