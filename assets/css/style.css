@@ -18,7 +18,38 @@ html,body{
 .carousel-caption{
     top: 40%;
 }
-/* .back-screen{
+.back-screen{
     background: rgba(0, 0,0, 0.5);
     height: 100%;
-} */
+}
+.boarder-short-bottom{
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.boarder-short-bottom:after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    background:gray;
+    
+}
+.wrapper-card-img{
+    position: relative;
+    /* 16:9 ratio*/
+    padding-top: 56.25%;
+    overflow: hidden;
+
+}
+.wrapper-card-img img{
+    position: absolute;
+    top: 0;
+    transition: 1s;
+}
+.wrapper-card-img img:hover{
+    transform: scale(1.1)
+}
