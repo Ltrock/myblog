@@ -53,3 +53,27 @@ html,body{
 .wrapper-card-img img:hover{
     transform: scale(1.1)
 }
+.semi-footer{
+    background: #313131;
+    color: aliceblue;
+}
+.semi-footer a{
+    color: aliceblue;
+}
+.semi-footer h4{
+    color: aliceblue;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+.footer{
+    background: black;
+    color: aliceblue;
+    font-size: 0.8rem;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+#map{
+    height: 200px;
+    width:100%;
+}
